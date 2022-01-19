@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    color: #F5DEB3;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 2em;
+    text-decoration: none;
+    padding-right: 2em;
+    padding-left: 5em;
+    padding-bottom: 2em;
+    &:hover {
+        color: red;
+        transition: 1s;
+    }
+}
+
+html {
+    background-size: cover;
+    min-height: 100%;
+    background-image: url("./markus_ruehl.jpg");
+    background-repeat: no-repeat;
+    width: 100%s;
+    background-position: center center;
+}
+
+.container {
+    font-size: 4em;
+    position: relative;
+    color: #A52A2A;
+    text-align: center;
+    top: 10vh;
+}
+
+.bebra {
+    position: relative;
+    text-align: center;
+    top: 25vh;
+    display: flex;
+    a {
+        color: yellow;
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        font-size: 2em;
+    }
+    a {
+        font-size: 1em;
+    }
+    html {
+        background-image: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        font-size: 1em;
+    }
+    a {
+        font-size: 0.5em;
+    }
+    html {
+        background-image: 30%;
+    }
+}
