@@ -14,13 +14,13 @@ nav {
 }
 
 a {
-  color: #F5DEB3;
+  color: #dfba75;
   font-size: xx-large;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding-top: 2em;
   text-decoration: none;
-  padding-right: 2em;
-  padding-left: 5em;
+  padding-right: 3em;
+  padding-left: 2em;
   padding-bottom: 2em;
 }
 
@@ -58,7 +58,7 @@ html {
 
 .bebra a {
   color: #DAA520;
-  font-size: 4em;
+  font-size: 4.2em;
 }
 
 .bebra #bob:hover {
@@ -73,30 +73,30 @@ html {
     color: salmon;
   }
   a {
-    font-size: 1em;
+    font-size: 2em;
   }
   html {
     background-image: 50%;
   }
   #bob {
-    font-size: 2em;
+    font-size: 3em;
     color: royalblue;
   }
 }
 
 @media screen and (max-width: 500px) {
   .container {
-    font-size: 1em;
+    font-size: 2em;
     color: skyblue;
   }
   a {
-    font-size: 0.5em;
+    font-size: 1em;
   }
   html {
     background-image: 30%;
   }
   #bob {
-    font-size: 1em;
+    font-size: 3em;
     color: red;
   }
 }
