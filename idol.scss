@@ -35,8 +35,8 @@ html {
 .container {
     font-size: 4em;
     position: relative;
-    color: #A52A2A;
-    text-align: center;
+    color: #DAA520;
+    left: 3em;
     top: 10vh;
 }
 
@@ -46,14 +46,21 @@ html {
     top: 25vh;
     display: flex;
     a {
-        color: yellow;
+        color: #DAA520;
         font-size: 4em;
+    }
+    #bob {
+        &:hover {
+            color: rebeccapurple;
+            transition: cubic-bezier(1, 4, 4, 1)s;
+        }
     }
 }
 
 @media screen and (max-width: 900px) {
     .container {
         font-size: 2em;
+        color: salmon;
     }
     a {
         font-size: 1em;
@@ -61,16 +68,25 @@ html {
     html {
         background-image: 50%;
     }
+    #bob {
+        font-size: 2em;
+        color: royalblue
+    }
 }
 
 @media screen and (max-width: 500px) {
     .container {
         font-size: 1em;
+        color: skyblue;
     }
     a {
         font-size: 0.5em;
     }
     html {
         background-image: 30%;
+    }
+    #bob {
+        font-size: 1em;
+        color: red;
     }
 }
